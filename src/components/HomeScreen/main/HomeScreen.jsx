@@ -1,4 +1,5 @@
 import Jeevith from "../../../assets/Jeevith2.png"
+import Portfolio from "../../../assets/portfolio1.png"
 import TargetCursor from "../../Animations/TargetCursor/TargetCursor";
 import Dock from "../../Animations/Dock/Dock";
 import { VscHome, VscArchive, VscAccount, VscSettingsGear } from "react-icons/vsc";
@@ -15,7 +16,7 @@ export default function HomeScreen() {
   return (
     <div className="min-h-screen cursor-none" >
       <div className="flex flex-col justify-center items-center">
-        <img src="\portfolio1.png" className="scale-80 -mt-15" />
+        <img src={Portfolio} className="scale-80 -mt-15" />
         <h2 className="-ml-190 absolute top-110 text-[#baa794] font-black text-4xl tracking-[8px]">
           Siranjeevan
         </h2>
